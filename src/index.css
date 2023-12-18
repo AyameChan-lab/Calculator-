@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .super-input {
+        @apply bg-slate-300/70 p-5 text-3xl rounded-md w-full text-end focus:outline-none text-blue-500/70 shadow-lg shadow-blue-500/20;;
+    }
+
+    .super-keypad {
+        @apply bg-slate-300  py-6 px-5 shadow-lg shadow-blue-500/20 rounded-lg hover:bg-slate-400/60;
+    }
+
+    .cal-box-style {
+        @apply mx-auto sm:w-96 md:w-96 my-5 bg-slate-200 p-2 rounded-lg shadow-lg shadow-blue-200;
+    }
+
+    .mom-box-keypad {
+        @apply my-3 p-2 rounded-lg bg-slate-200/60 grid grid-cols-4 gap-x-1 gap-y-2;
+    }
+}
